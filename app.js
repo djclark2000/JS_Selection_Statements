@@ -41,8 +41,9 @@ switch (birthMonth) {
     case "September":
     case "October":
     case "November":
-      console.log('You were born in the Fall!');
       break;
+    default:
+      console.log('Sorry, this month is not valid.');
 }
 
 
